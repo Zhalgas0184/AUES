@@ -474,7 +474,7 @@ class Main(Frame):
 if __name__ == '__main__':
     root = Tk()
     root.resizable(0, 0)
-    root.geometry("%dx%d+0+0" % (1300, 650))
+    root.geometry("%dx%d+10+50" % (1300, 650))
     title = 'Test Suite for NIST Random Numbers'
     root.title(title)
     app = Main(root)
